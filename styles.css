@@ -50,12 +50,12 @@ a{
         }
 
         .navbar-links a {
-            font-family: "Inter", serif;
+           font-family: "Markazi Text", Serif;
+  font-weight: 300;
             width: 56px;
             height: 16px;
             font-style: normal;
-            font-weight: 600;
-            font-size: 20px;
+            font-size: 30px;
             line-height: 16px;
             margin: 15px;
             display: flex;
@@ -139,10 +139,10 @@ a{
        text-shadow: 2px 2px #000000;
  }
 .content p {
-    margin-top: -40px;
-  font-family: "Poppins", serif;
-  font-weight: 500;
-font-size: 25px;
+    margin-top: -45px;
+  font-family: "Markazi Text", Serif;
+  font-weight: 300;
+font-size: 32px;
 line-height: 143%;
 text-align: center;
 text-transform: capitalize;

@@ -68,7 +68,7 @@ a{
         }
 
         .navbar-links a:hover {
-            color: #d588ff;
+            color: rgb(148, 148, 148);
         }
 
         .section {
@@ -83,7 +83,7 @@ a{
       left: 0;
       width: 100%;
       height: 90%;
-             opacity: 0.5;
+             opacity: 0.3;
       background: url('img.png') repeat;
       z-index: 1;
     }
@@ -91,7 +91,7 @@ a{
         /* Section 1 Background */
         .section1 {
             height: 70vh;
-            background: linear-gradient(to bottom, #0a0d16, rgb(50, 11, 66));
+            background: linear-gradient(to bottom, #000000, rgba(29, 28, 28, 0.99));
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -100,15 +100,15 @@ a{
 
         /* Section 2 Background */
         .section2 {
-            background: linear-gradient(to bottom, rgb(50, 11, 66), #0a0d16);
+            background: linear-gradient(to bottom, rgba(29, 28, 28, 0.99), #000000);
         }
 
         /* Section 3 Background */
         .section3 {
-            background: linear-gradient(to bottom, #0a0d16,  rgb(50, 11, 66));
+            background: linear-gradient(to bottom, #000000, rgba(29, 28, 28, 0.99));
         }
             .section4 {
-            background: linear-gradient(to top, #0a0d16, rgb(50, 11, 66) );
+            background: linear-gradient(to top,#000000, rgba(29, 28, 28, 0.99));
         }
 
         .content {
@@ -154,10 +154,10 @@ flex-grow: 0;
 z-index: 1;
 }
         .get-in-touch {
-            background: #78429b;
+            background: #ffffff;
             border-radius: 8px;
             text-decoration: none;
-            color: #FFFFFF;
+            color: #000000;
             padding: 10px 20px;
             flex: none;
             order: 1;
@@ -165,7 +165,8 @@ z-index: 1;
         }
 
         .get-in-touch:hover {
-            background-color: #4a1e62;
+            background-color: #594e5b;
+            color: #FFFFFF;
         }
         .container
         {
@@ -197,7 +198,7 @@ z-index: 1;
 .about-box {
     width: 90%;
     height: 350px;
-    background: linear-gradient(to top, rgba(28, 13, 45, 0), rgba(45, 23, 80, 0.62));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(55, 55, 55, 0.23));
     border-radius: 12px;
     padding: 20px;
     color: white;
@@ -213,7 +214,7 @@ z-index: 1;
 
 .about-box i {
     font-size: 40px;
-    color: #d588ff;
+    color: #eefffe;
     margin-bottom: 15px;
     margin-top: 30px;
 }
